@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 50px;
-    width: 600px; /* Genişlik ayarlandı */
-    padding: 40px; /* Daha fazla iç boşluk eklendi */
-    background-color: rgba(255, 255, 255, 0.9); /* Transparan beyaz arka plan */
+    width: 600px; 
+    padding: 40px; 
+    background-color: rgba(255, 255, 255, 0.9); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: none;
@@ -35,9 +35,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px; /* Kutucuklar arası boşluk */
+    gap: 15px; 
     width: 100%;
-    margin-bottom: 20px; /* Elemanlar arasında daha fazla boşluk */
+    margin-bottom: 20px; 
 }
 
 .amount,
@@ -78,7 +78,7 @@
     transition: all 0.3s ease;
     display: block;
     text-align: center;
-    margin: 20px auto 0; /* Ortalanma */
+    margin: 20px auto 0; 
 }
 
 .exchange-button:hover {
@@ -88,6 +88,6 @@
 
 .fa-reg-arrow-alt-circle-right {
     font-size: 30px;
-    margin: 0 15px; /* Ok simgesi ile diğer elemanlar arasında boşluk */
+    margin: 0 15px; 
     color: #555;
 }
