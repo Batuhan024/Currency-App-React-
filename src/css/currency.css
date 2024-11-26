@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 50px;
-    width: 600px; 
-    padding: 40px; 
-    background-color: rgba(255, 255, 255, 0.8); 
+    width: 600px; /* Genişlik ayarlandı */
+    padding: 40px; /* Daha fazla iç boşluk eklendi */
+    background-color: rgba(255, 255, 255, 0.9); /* Transparan beyaz arka plan */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: none;
@@ -14,18 +14,18 @@
 }
 
 .currency-div h3 {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
     color: #333;
     margin: 0;
     padding: 10px 0;
-    position: relative; 
+    position: relative;
     text-align: center;
 }
 
 .currency-div h3::after {
     content: '';
     display: block;
-    width: 80%; 
+    width: 80%;
     height: 2px;
     background-color: #ddd;
     margin: 10px auto 0;
@@ -33,10 +33,11 @@
 
 .currency-div > div {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    width: 100%; 
-    margin-bottom: 20px; 
+    gap: 15px; /* Kutucuklar arası boşluk */
+    width: 100%;
+    margin-bottom: 20px; /* Elemanlar arasında daha fazla boşluk */
 }
 
 .amount,
@@ -87,6 +88,6 @@
 
 .fa-reg-arrow-alt-circle-right {
     font-size: 30px;
-    margin: 0 15px;
+    margin: 0 15px; /* Ok simgesi ile diğer elemanlar arasında boşluk */
     color: #555;
 }
